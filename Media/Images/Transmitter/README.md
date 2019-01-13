@@ -3,4 +3,5 @@
 ## DEVELOPMENT
 <img src="Transmitter test.jpg"
      alt="Transmitter test"
-     style="float: left; margin-right: 10px;" />
+     height="42" width="42"
+     style="float: center; margin-right: 10px;"/>
