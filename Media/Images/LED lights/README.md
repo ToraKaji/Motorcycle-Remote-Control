@@ -1,1 +1,1 @@
-# All the photos for adding led strip lights to my bike.
+## All the photos for adding LED strip lights to my bike.
