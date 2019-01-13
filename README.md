@@ -42,4 +42,4 @@ Some of the many things I would like to accomplish in breif:
 * Attaching the servo to accurately adjust the choke : 
 * Powering on when the bike is "off" and shutting down when the bike is "off" :
 * Storage space, as the Arduino nano only has 30720 bytes with no expansion available : 
-
+* Transmitting and receiving power. I've read a few places that these modules aren't very good for long distance communication :
