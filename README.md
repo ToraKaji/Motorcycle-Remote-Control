@@ -12,7 +12,7 @@
 * [Mini momentary tactile push buttons](https://www.hdk.co.jp/pdf/eng/e291702.pdf)
 * Various gauge wire
 
-***Some links listed are not the actual manufacturer used, but are equivalent and could be used interchangeably. All can be searched on amazon with fairly accurate responses***
+***Some links listed are not the actual manufacturer used, but are equivalent and could be used interchangeably. All can be searched on [Amazon](https://amazon.com) or any other shopping website with fairly accurate responses.***
 
 ### Resources used
 
