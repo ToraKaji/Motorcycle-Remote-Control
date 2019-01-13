@@ -1,1 +1,1 @@
-## Here I will be posting any photos or short vidoes that github allows me to post. Photos and videos may be cluttered for a bit until I find an efficeint way of organizing and presenting them. Feel free to browse.
+## Here I will be posting any photos or short vidoes that github allows me to post. Photos and videos may be cluttered for a bit until I find an efficient way of organizing and presenting them. Feel free to browse.
