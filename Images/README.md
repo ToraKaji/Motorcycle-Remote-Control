@@ -3,6 +3,6 @@
   <head>
   </head>
   <body>
-    <img src="The victim.png" alt="The bike" height="500" width="1000"/>
+    <img src="The victim.jpg" alt="The bike" height="500" width="1000"/>
   </body>
 </html>
