@@ -8,9 +8,11 @@
 * [315Mhz RF Transmitter and Receiver Module](http://www.hiletgo.com/ProductDetail/2157209.html)
 * [IRFZ44N N-Channel Field-Effect Power Transitor](https://www.infineon.com/dgdl/irfz44n.pdf?fileId=5546d462533600a40153563b3575220b)
 * [Servo motor SG90](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
+* [DHT11 (humidity and temperature sensor)](https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf)
+* [Mini momentary tactile push buttons](https://www.hdk.co.jp/pdf/eng/e291702.pdf)
 * Various gauge wire
 
-***All can be searched on amazon with fairly accurate responses***
+***Some links listed are not the actual manufacturer used, but are equivalent and could be used interchangeably. All can be searched on amazon with fairly accurate responses***
 
 ### Resources used
 
