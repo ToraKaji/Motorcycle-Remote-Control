@@ -7,8 +7,8 @@
 ## Goals
 Some of the many things I would like to accomplish in breif: 
 * Create a remote for the transmitter capable of controlling the horn, power on and ignition, power off, adjusting the choke to match weather and engine conditions, and also actuate the steering lock for safe-er remote start.
-* Wire the Arduino to be on the off state when it is turned on through the manual ignition key switch and on when the bike has been physically switched off. When the bike is in use, I don't want the bike to be dependant on the arduino for use as I don't feel this is very safe. Eventually, I may allow for this if all runs well. The physical ignition will always be a way for it to function though.
-* Write dependable code for the transmitter and receiving ends of the Arduino. Code will be written in C using various libraries listed below. 
+* Wire the Arduino to be in the off state when the bike is turned on through the manual ignition key switch and on when the bike has been physically switched off. When the bike is in use, I don't want the bike to be dependant on the arduino for use as I don't feel this is very safe. Eventually, I may allow for this if all runs well. The physical ignition will probably always be a way for it to function though.
+* Write dependable code for the transmitting and receiving ends of the Arduino. Code will be written in C using various libraries listed below. 
 * Read ambient temperature using the DHT11 and use the servo to pull or push the choke knob in accordance with the temperature. 
 
 * In addition to the above, I will also be attaching LED lights to the bike. I don't feel this is neccessary to include though, as no microcontroller use is involved.
@@ -40,6 +40,6 @@ Some of the many things I would like to accomplish in breif:
 
 ### Possible concerns/fixes
 * Attaching the servo to accurately adjust the choke : 
-* Powering on when the bike is "off" and shutting down when the bike is off" :
-* Storage space as the Arduino nano only has 30720 bytes with no expansion available : 
+* Powering on when the bike is "off" and shutting down when the bike is "off" :
+* Storage space, as the Arduino nano only has 30720 bytes with no expansion available : 
 
