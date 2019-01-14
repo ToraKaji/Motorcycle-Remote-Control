@@ -7,10 +7,9 @@
 ## Goals
 Some of the many things I would like to accomplish in breif: 
 * Create a remote for the transmitter capable of controlling the horn, power on and ignition, power off, adjusting the choke to match weather and engine conditions, and also actuate the steering lock for safe-er remote start.
-* Wire the Arduino to be in the off state when the bike is turned on through the manual ignition key switch and on when the bike has been physically switched off. When the bike is in use, I don't want the bike to be dependant on the arduino for use as I don't feel this is very safe. Eventually, I may allow for this if all runs well. The physical ignition will probably always be a way for it to function though.
+* ~~Wire the Arduino to be in the off state when the bike is turned on through the manual ignition key switch and on when the bike has been physically switched off. When the bike is in use, I don't want the bike to be dependant on the arduino for use as I don't feel this is very safe. Eventually, I may allow for this if all runs well. The physical ignition will probably always be a way for it to function though.~~ Wire the Arduino to always be powered on for complete functionality without key in hand. It would have been a lot more difficult to wire it to only be on/off at certain times. In turn, security and reliability are my main focuses at this point.
 * Write dependable code for the transmitting and receiving ends of the Arduino. Code will be written in C using various libraries listed below. 
 * Read ambient temperature using the DHT11 and use the servo to pull or push the choke knob in accordance with the temperature. 
-
 * In addition to the above, I will also be attaching LED lights to the bike. I don't feel this is neccessary to include though, as no microcontroller use is involved.
 
 ### Hardware intended for use
@@ -42,6 +41,6 @@ Some of the many things I would like to accomplish in breif:
 * Conflicting libraries: VirtualWire and Servo both try to use timer 1. Long painstaking find; easy fix, download ServoTimer2. [Link to solution](https://electronics.stackexchange.com/questions/67967/problems-using-servo-h-and-virtualwire-h-in-arduino)
 ### Possible concerns/fixes
 * Attaching the servo to accurately adjust the choke : 
-* Powering on when the bike is "off" and shutting down when the bike is "on" :
+* Concern : Powering on when the bike is "off" and shutting down when the bike is "on"; Fix : Always have the bike available to receive communication
 * Storage space, as the Arduino nano only has 30720 bytes with no expansion available : 
 * Transmitting and receiving power. I've read a few places that these modules aren't very good for long distance communication :
