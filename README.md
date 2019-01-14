@@ -30,14 +30,16 @@ Some of the many things I would like to accomplish in breif:
 ##### Libraries
 
 * [VirtualWire](https://www.pjrc.com/teensy/td_libs_VirtualWire.html)
-* [Servo](https://www.arduino.cc/en/reference/servo)
-
+* ~~[Servo](https://www.arduino.cc/en/reference/servo)~~ INCOMPATIBLE WITH VIRTUALWIRE
+* [ServoTimer2](https://github.com/nabontra/ServoTimer2)
 ##### External resources
 
 * [Markdown Cheat Sheet](http://nestacms.com/docs/creating-content/markdown-cheat-sheet)
 * [C data type storage sizes](https://intellipaat.com/tutorial/c-tutorial/c-data-types)
 * [Arduino RF Tutorial (MX-05V / MX-FS-03V)](https://www.youtube.com/watch?v=cplAjvAAEDw&list=LLQJywBYkZNHAE-BNjEt2v4g)
 
+### ERRORS  
+* Conflicting libraries: VirtualWire and Servo both try to use timer 1. Long painstaking find; easy fix, download ServoTimer2. [Link to solution](https://electronics.stackexchange.com/questions/67967/problems-using-servo-h-and-virtualwire-h-in-arduino)
 ### Possible concerns/fixes
 * Attaching the servo to accurately adjust the choke : 
 * Powering on when the bike is "off" and shutting down when the bike is "on" :
